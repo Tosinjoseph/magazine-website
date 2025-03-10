@@ -13,7 +13,7 @@ const Hero = ({setMenuShow, setShow}) => {
            <button className='bg-amber-800 hover:scale-105 justify-center cursor-pointer flex text-white mt-15 items-center mx-auto h-15 px-10'>READ THE BLOG</button>
           
         </div>
-        <Subhero/>
+        <Subhero setShow={setShow}/>
     </div>
   )
 }

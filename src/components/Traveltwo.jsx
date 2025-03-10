@@ -2,7 +2,7 @@ import React from 'react'
 
 const Traveltwo = () => {
   return (
-    <div className='overflow-hidden w-full gap-40  flex flex-col md:flex-row  justify-center mx-auto '>
+    <div className='overflow-hidden w-full gap-40  flex flex-col md:flex-row  justify-center mx-auto'>
      
      <div className='justify-start bg-blue-50 w-full px-18  md:w-1/2 py-15'>
         <div className='bg-amber-800  w-30 h-2 mb-4'></div>

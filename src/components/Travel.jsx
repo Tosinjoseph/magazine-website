@@ -2,7 +2,7 @@ import React from 'react'
 
 const Travel = () => {
   return (
-    <div id='Blog' className='overflow-hidden w-full gap-40  flex flex-col md:flex-row  justify-center mx-auto '>
+    <div id='Blog' className=' overflow-hidden w-full gap-40  flex flex-col md:flex-row  justify-center mx-auto'>
      <div className='w-full md:w-150 pl-6 md:pl-20 lg:pl-32'>
      <img src="./impulse-1.avif" alt=""  className='w-100 h-90 my-8 py-10 md:px-6 ' />
      </div>

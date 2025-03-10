@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subtravelpost = () => {
   return (
-    <div className='w-full flex-col md:flex-row lg:flex overflow-hidden  justify-center items-center mx-auto'>
+    <div className='w-full flex-col md:flex-row lg:flex justify-center items-center mx-auto'>
 
         <div className='w-full md:w-1/3 relative group justify-center items-center mx-auto '>
         <img src="./impulse-2.avif" className='w-full h-65 relative ' alt="" />

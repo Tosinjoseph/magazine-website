@@ -20,7 +20,7 @@ const App = () => {
       <Travel/>
       <Subtravel/>
       <Travelpost/>
-      <Subtravelpost/>
+      <Subtravelpost setShow={setShow} message={message}/>
       <Traveltwo/>
       <Findout/>
       <Footer/>

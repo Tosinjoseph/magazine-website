@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Navi = ({menuShow, setMenuShow}) => {
+
+  useEffect(()=>{
+    if(menuShow){
+       document.body.style.overflow='hidden'
+    }else{
+       document.body.style.overflow='auto'
+    }return()=>{
+       document.body.style.overflow='auto'
+    };
+   },[menuShow])
   return (
     <div className={`fixed z-200 inset-0 ${menuShow? 'w-full' : 'hidden'} 
     z-30 bg-fuchsia-100 px-4 md:px-15 lg:px-20`}>
