@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react'
 
 const Navi = ({menuShow, setMenuShow}) => {
+   const openWebPage=()=>{
+      window.open('/contact', '_blank')
+   }
+
 
   useEffect(()=>{
     if(menuShow){
@@ -23,7 +27,7 @@ const Navi = ({menuShow, setMenuShow}) => {
         <a href="#Home" onClick={()=>setMenuShow(false)} className='mb-4'>HOME</a>
         <a href="#Blog" onClick={()=>setMenuShow(false)}  className='mb-4'>BLOG</a>
         <a href="#About" onClick={()=>setMenuShow(false)} className='mb-4'>ABOUT</a>
-        <a href="#Contact" onClick={()=>setMenuShow(false)} className='mb-4'>CONTACT</a>
+        <a href="#Contact"  onClick={openWebPage} className='mb-4'>CONTACT</a>
         </ul>
     </div>
   )
